@@ -1,0 +1,23 @@
+.heading {
+font-size: 25px;
+width:100%;
+margin:0px;
+box-shadow:5px 5px 5px magenta;
+}
+
+.heading_div {
+float:none;
+background-color: yellowgreen;
+padding:10px;
+border-radius:20px;
+margin-bottom: 10px;
+animation:example 5s infinite;
+}
+@keyframes example{
+from {box-shadow:5px 5px 6px yellow;}
+to {box-shadow:5px 5px 6px red;}
+}
+
+.heading_div2 {
+font-size: 20px;
+}
