@@ -1,5 +1,5 @@
 .heading {
-font-size: 25px;
+font-size: 20px;
 width:100%;
 margin:0px;
 box-shadow:5px 5px 5px magenta;
@@ -10,14 +10,47 @@ float:none;
 background-color: yellowgreen;
 padding:10px;
 border-radius:20px;
-margin-bottom: 10px;
+margin-top:-10px;
 animation:example 5s infinite;
 }
 @keyframes example{
 from {box-shadow:5px 5px 6px yellow;}
-to {box-shadow:5px 5px 6px red;}
+to {box-shadow:5px 5px 7px red;}
 }
 
 .heading_div2 {
 font-size: 20px;
+}
+
+.result_tag {
+font-size: 20px;
+box-shadow: 5px 5px 6px blueviolet;
+}
+
+#footer {
+font-size: 20px;
+color:darkorange;
+font-style: italic;
+width:100%;
+text-align: center;
+text-emphasis: filled triangle darkorange;
+-webkit-text-emphasis: filled triangle darkorange;
+position: fixed;
+bottom: 0;
+background-color: blueviolet;
+}
+
+canvas {
+margin-top: 100px;
+border: 10px groove goldenrod;
+box-shadow: 6px 6px 9px goldenrod;
+}
+
+body {
+animation: example1 60s infinite;
+} 
+
+@keyframes example1{
+from{background-image: URL("background2.jpg")}
+to{background-image: URL("background3.jpg")}
 }
